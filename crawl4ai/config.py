@@ -19,6 +19,8 @@ PROVIDER_MODELS = {
     "anthropic/claude-3-opus-20240229": os.getenv("ANTHROPIC_API_KEY"),
     "anthropic/claude-3-sonnet-20240229": os.getenv("ANTHROPIC_API_KEY"),
     "anthropic/claude-3-5-sonnet-20240620": os.getenv("ANTHROPIC_API_KEY"),
+    # Added Google Gemini AI
+    "google/gemini-2.0-pro-exp-02-05": os.getenv("GEMINI_API_KEY"),
 }
 
 # Chunk token threshold
